@@ -1,5 +1,5 @@
 import 'package:client/core/theme/theme.dart';
-import 'package:client/features/auth/view/pages/login_page.dart';
+import 'package:client/features/auth/view/pages/signup_page.dart';
 
 import 'package:flutter/material.dart';
 
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: AppTheme.darkThemeMode, //custom theme set by us
       // theme: ThemeData.dark(),      //default theme you can set using flutter
-      home: LoginPage(),
+      home: SignupPage(),
       debugShowCheckedModeBanner: false,
     );
   }
